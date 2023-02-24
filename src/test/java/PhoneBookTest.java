@@ -13,11 +13,13 @@ class PhoneBookTest {
 
     @BeforeEach
     void setUp() {
+        System.out.println("Test start");
         phoneBook = new PhoneBook();
     }
 
     @AfterEach
     void tearDown() {
+        System.out.println("Test end");
         phoneBook = null;
     }
 
