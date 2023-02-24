@@ -1,10 +1,9 @@
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 
 public class PhoneBookTest {
 
         //PhoneBook phoneBook = new PhoneBook();
         @Test
-        public void add() { //Создать тест или тесты на метод findByNumber в классе тестов PhoneBookTest
-
+        public void add() {
     }
 }
